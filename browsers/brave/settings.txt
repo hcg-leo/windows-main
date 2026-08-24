@@ -1,0 +1,18 @@
+# brave flags - brave://flags
+
+!!Choose ANGLE graphics backend!! - ONLY FOR WINDOWS - D3D11
+GPU rasterization
+Zero-copy rasterizer
+Force High Performance GPU
+Override software rendering list
+Smooth Scrolling
+Experimental QUIC protocol
+Future V8 VM features
+Optimize WebRequest proxying
+Prerendering
+Parallel downloading
+Auto Dark Mode for Web Contents
+
+# brave websites - brave://settings/braveSync/setup
+bookmarks, open tabs, saved tab groups,settings, extensions, themes
+
