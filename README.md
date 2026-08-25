@@ -1,10 +1,10 @@
 # windows debloat setup
 
-*embrace windows.*
+*embrace debloat.*
 
 ![windows](https://img.shields.io/badge/windows-0078d6?style=for-the-badge&logo=windows11) ![batch](https://img.shields.io/badge/batch-4d4d4d?style=for-the-badge) ![powershell](https://img.shields.io/badge/powershell-5391fe?style=for-the-badge&logo=powershell)
 
-Personal setup used to debloat and configure Windows after a fresh install on a Galaxy Book 3 360. This repository is also a backup folder: each directory mirrors where its settings normally live, and `setup.ps1` restores and configures them.
+personal setup used to debloat and configure windows after a fresh install on my galaxy book 3 360. this repo is basically a backup folder - each directory mirrors somewhere your settings normally live, and the scripts in `bat files/` copy everything back into place.
 
 ### overview
 
@@ -47,13 +47,22 @@ Personal setup used to debloat and configure Windows after a fresh install on a 
 ├── wallpapers
 │   ├── - nord_mountains.png
 │   └── - palette_blue_dark.jpg
-├── setup.ps1
 └── winhance
 ```
 
 > note: most of these folders only hold a `desktop.ini` for the folder icon right now, drop your own backup files into them before running the scripts
 
-## install bat
+### the files and what they hold
+
+- `bat files/`: numbered scripts, run top to bottom on a fresh install to put everything below back in place
+- `browsers/brave/settings.txt`: brave://flags and sync options to turn on by hand, not scripted
+- `minecraft/prism launcher/`: catpacks, iconthemes, instances, themes and `prismlauncher.cfg`, restored by `7. prism.bat`
+- `samsung drivers/driver pack/`: samsung driver pack for the galaxy book 3 360, installed by `2. samsung drivers.bat`
+- `tweaks/`: winhance tweak profiles (`- tweaks` and `school`) plus `autounattend.xml`, the answer file for an unattended windows install
+- `wallpapers/`: wallpapers, `- nord_mountains.png` is the one set automatically by `9. wallpaper.bat`
+- `winhance/`: empty, drop the winhance app here before importing the profiles in `tweaks/`
+
+### install - replace sub-folders contents with your own configs
 
 clone this straight into the backup folder on the desktop
 
@@ -71,46 +80,25 @@ open `bat files/1. mouse-speed.bat` first if you want a different pointer speed 
 
 then run each script in `bat files/` in order, `1. mouse-speed.bat` through to `15. git-powershell.bat`
 
-## install .ps1 script
+### what each script does
 
-```powershell
-Set-Location $env:USERPROFILE\Desktop
-git clone https://github.com/hcg-leo/windows-main backup
-Set-Location .\backup
-```
+- `1. mouse-speed.bat`: sets the mouse pointer speed
+- `2. samsung drivers.bat`: installs the driver pack with `pnputil`
+- `3. host-name.bat`: renames the pc to `main`
+- `4. wifi.bat`: adds and connects to a wifi profile
+- `5. ctt.bat`: runs chris titus tech's windows utility
+- `6. brave.bat`: restores the brave default profile from the backup folder
+- `7. prism.bat`: restores prism launcher's catpacks, iconthemes, instances, themes and config
+- `8. notepad++.bat`: restores notepad++'s config and stylers files
+- `9. wallpaper.bat`: sets the desktop wallpaper
+- `10. display.bat`: opens advanced display settings
+- `11. night-light.bat`: opens night light settings
+- `12. touchpad.bat`: opens touchpad settings
+- `13. lockscreen.bat`: opens lock screen settings
+- `14. vscodium-extensions.bat`: installs my prefered extensions
+- `15. git-powershell.bat`: adds a git bash profile to windows terminal
 
-Before running, open `setup.ps1` and replace the placeholder value for `$wifiPassword`. Do not commit a real password to Git.
+### credits
 
-Run PowerShell as **Administrator**, then run:
-
-```powershell
-.\setup.ps1
-```
-
-If Windows blocks local scripts, use this one-time command:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\setup.ps1
-```
-
-The optional Chris Titus Tech utility downloads and executes a remote script, so it is disabled by default. Opt in only if you intend to run it:
-
-```powershell
-.\setup.ps1 -RunCtt
-```
-
-## the files and what they hold
-
-- `setup.ps1`: all-in-one PowerShell setup script.
-- `bat files/`: the original numbered batch files; use these only when you want to run a single action manually.
-- `browsers/brave/settings.txt`: Brave flags and sync options to enable manually.
-- `minecraft/prism launcher/`: catpacks, icon themes, instances, themes, and `prismlauncher.cfg`.
-- `samsung drivers/driver pack/`: Samsung driver pack for the Galaxy Book 3 360.
-- `tweaks/`: Winhance profiles and `autounattend.xml`.
-- `wallpapers/`: wallpapers; `- nord_mountains.png` is applied by the setup script.
-- `winhance/`: place the Winhance app here before importing profiles from `tweaks/`.
-
-## credits
-
-- [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
-- [Winhance](https://github.com/memstechtips/Winhance)
+- [chris titus tech's windows utility](https://github.com/ChrisTitusTech/winutil)
+- [winhance](https://github.com/memstechtips/Winhance)
