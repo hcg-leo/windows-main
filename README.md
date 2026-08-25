@@ -97,3 +97,8 @@ then run each script in `bat files/` in order, `1. mouse-speed.bat` through to `
 - `13. lockscreen.bat`: opens lock screen settings
 - `14. vscodium-extensions.bat`: installs the nord theme, vim and prettier extensions for vscodium
 - `15. git-powershell.bat`: adds a git bash profile to windows terminal
+
+### credits
+
+- [chris titus tech's windows utility](https://github.com/ChrisTitusTech/winutil)
+- [winhance](https://github.com/memstechtips/Winhance)
