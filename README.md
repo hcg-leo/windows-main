@@ -1,6 +1,6 @@
 # windows debloat setup
 
-*embrace debloat.*
+*embrace windows.*
 
 ![windows](https://img.shields.io/badge/windows-0078d6?style=for-the-badge&logo=windows11) ![batch](https://img.shields.io/badge/batch-4d4d4d?style=for-the-badge) ![powershell](https://img.shields.io/badge/powershell-5391fe?style=for-the-badge&logo=powershell)
 
