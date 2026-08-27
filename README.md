@@ -25,7 +25,10 @@ personal setup used to debloat and configure windows after a fresh install on my
 │   ├── 12. touchpad.bat
 │   ├── 13. lockscreen.bat
 │   ├── 14. vscodium-extensions.bat
-│   └── 15. git-powershell.bat
+│   ├── 15. git-powershell.bat
+│   ├── 16. bluetooth.bat
+│   ├── 17. drive.bat
+
 ├── browsers
 │   └── brave
 │       └── settings.txt
