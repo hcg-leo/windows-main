@@ -28,6 +28,7 @@ personal setup used to debloat and configure windows after a fresh install on my
 │   ├── 15. git-powershell.bat
 │   ├── 16. bluetooth.bat
 │   ├── 17. drive.bat
+│   ├── 18. explorer-bin.bat
 
 ├── browsers
 │   └── brave
