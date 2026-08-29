@@ -1,16 +1,20 @@
 @echo off
-echo restoring notepad++ settings...
+setlocal
 
-set "SOURCE_DIR=%USERPROFILE%\Desktop\backup\notepad++"
-set "DEST_DIR=%appdata%\Notepad++"
+echo Notepad++ setup: Nord theme + hide toolbar
+echo -------------------------------------------
+echo.
 
-if not exist "%DEST_DIR%" (
-    mkdir "%DEST_DIR%"
+set "SCRIPT_DIR=%~dp0"
+
+if not exist "%SCRIPT_DIR%apply-nord-theme.ps1" (
+    echo [ERROR] apply-nord-theme.ps1 was not found next to this .bat file.
+    echo         Keep both files in the same folder, then run this again.
+    pause
+    exit /b 1
 )
 
-copy /Y "%SOURCE_DIR%\config.xml" "%DEST_DIR%\"
-copy /Y "%SOURCE_DIR%\stylers.xml" "%DEST_DIR%\"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_DIR%apply-nord-theme.ps1"
 
 echo.
-echo motepad++ settings transferred successfully
 pause
