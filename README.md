@@ -4,7 +4,7 @@
 
 ![windows](https://img.shields.io/badge/windows-0078d6?style=for-the-badge&logo=windows11) ![batch](https://img.shields.io/badge/batch-4d4d4d?style=for-the-badge) ![powershell](https://img.shields.io/badge/powershell-5391fe?style=for-the-badge&logo=powershell)
 
-my personal setup used to debloat and configure windows after a fresh install on my galaxy book 3 360. this repo is basically a backup folder - each directory mirrors somewhere your settings normally live, and the scripts in `bat files/` copy everything back into place.
+my personal setup used to debloat and configure windows to be like linux, on my galaxy book 3 360. this repo is basically a backup folder - each directory mirrors somewhere your settings normally live, and the scripts in `bat files/` copy everything back into place.
 
 > note: most of these folders only hold a `desktop.ini` for the folder icon right now, drop your own backup files into them before running the scripts
 
