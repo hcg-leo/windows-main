@@ -1,8 +1,9 @@
 @echo off
-echo changing device name to "main"...
+echo Changing device name to "main"...
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Rename-Computer -NewName 'main'"
 
 echo.
-echo device name updated successfully
+echo Device name updated successfully!
+echo NOTE: You must restart your computer for the new name to take effect.
 pause

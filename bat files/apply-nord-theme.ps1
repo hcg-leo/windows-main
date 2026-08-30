@@ -33,8 +33,6 @@
     ignored rather than cause an error, per Notepad++'s own tolerant
     config parsing, but that's an inference, not something I've tested
     on your machine.
-
-    this is a 'dependency' file for the main notepad++ bat file, i dont know how this works ai made it :/
 #>
 
 $ErrorActionPreference = 'Stop'
