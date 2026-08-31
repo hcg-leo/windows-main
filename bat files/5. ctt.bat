@@ -1,4 +1,4 @@
 @echo off
-echo Running Chris Titus Tech Utility...
+echo running chris titus tech utility
 powershell -ExecutionPolicy Bypass -Command "irm https://christitus.com/win | iex"
 pause

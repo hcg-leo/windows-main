@@ -1,8 +1,7 @@
 @echo off
 setlocal
 
-echo Notepad++ setup: Nord theme + hide toolbar
-echo -------------------------------------------
+echo notepad++ setup: nord theme + hide toolbar
 echo.
 
 set "SCRIPT_DIR=%~dp0"

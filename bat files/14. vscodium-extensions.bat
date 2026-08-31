@@ -6,5 +6,5 @@ call codium --install-extension vscodevim.vim
 call codium --install-extension esbenp.prettier-vscode
 call codium --install-extension nur-srijan.markdown-rich-preview
 
-echo all extensions installed!
+echo done
 pause

@@ -1,6 +1,6 @@
 @echo off
-title Brave Browser Profile Restore
-echo Restoring Brave "Default" profile from Desktop backup...
+title brave browser profile restore
+echo restoring brave "Default" profile from desktop backup
 pause
 
 set "SOURCE=%USERPROFILE%\Desktop\backup\browsers\brave\Default"
@@ -11,5 +11,5 @@ echo Restoring Default profile...
 xcopy "%SOURCE%" "%DEST%" /E /I /Y /H /C
 
 echo.
-echo Brave profile has been successfully replaced in your LocalAppData folder!
+echo done
 pause

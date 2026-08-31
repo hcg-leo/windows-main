@@ -1,10 +1,10 @@
 @echo off
-echo Navigating to driver folder...
+echo navigating to driver folder
 cd /d "%USERPROFILE%\Desktop\backup\samsung driver\driver pack"
 
-echo Installing Samsung drivers...
+echo installing samsung drivers
 pnputil /add-driver *.inf /subdirs /install
 
 echo.
-echo Process finished!
+echo done
 pause

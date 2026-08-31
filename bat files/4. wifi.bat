@@ -1,11 +1,10 @@
 @echo off
-:: Replace these with your actual Wi-Fi name (SSID) and password
+
 set "WIFI_NAME=EE-86FXKW"
 set "WIFI_PASSWORD=password"
 
-echo Setting up Wi-Fi profile for %WIFI_NAME%...
+echo setting up wi-fi profile for %WIFI_NAME%
 
-:: 1. Generate the required XML configuration file
 (
 echo ^<?xml version="1.0"?^>
 echo ^<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"^>
@@ -33,16 +32,13 @@ echo     ^</MSM^>
 echo ^</WLANProfile^>
 ) > temp_wifi_profile.xml
 
-:: 2. Import the profile into Windows
 netsh wlan add profile filename="temp_wifi_profile.xml"
 
-:: 3. Connect to the network
 echo Connecting to %WIFI_NAME%...
 netsh wlan connect name="%WIFI_NAME%"
 
-:: 4. Clean up the temporary XML file
 del temp_wifi_profile.xml
 
 echo.
-echo Process complete. 
+echo done
 pause
