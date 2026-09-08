@@ -1,7 +1,7 @@
 @echo off
 
 set "WIFI_NAME=EE-86FXKW"
-set "WIFI_PASSWORD=password"
+set "WIFI_PASSWORD=wUevJr9FURwNF6Mf"
 
 echo setting up wi-fi profile for %WIFI_NAME%
 
