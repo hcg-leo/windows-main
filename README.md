@@ -1,8 +1,15 @@
-# windows debloat setup
+# windows configuration
 
-*love windows.* - personal debloat + config backup for windows, built for a galaxy book 3 360. each folder mirrors where a setting normally lives and `bat files/` copies it all back into place.
+*debloat!* - my personal setup to debloat/setup windows - for my galaxy book 3 360
 
-### install
+### overview
+
+```
+.
+├── README.md
+├── bat files/
+├── tweaks/
+├── wallpapers/
 
 ```
 cd %userprofile%\desktop
