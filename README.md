@@ -10,7 +10,8 @@
 ├── bat files/
 ├── tweaks/
 ├── wallpapers/
-
+```
+### install
 ```
 cd %userprofile%\desktop
 git clone https://github.com/hcg-leo/windows-main backup
