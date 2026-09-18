@@ -6,16 +6,6 @@
 
 personal debloat + config backup for windows, built for a galaxy book 3 360. each folder mirrors where a setting normally lives and `bat files/` copies it all back into place.
 
-### structure
-
-- `bat files/` - numbered scripts, run top to bottom on a fresh install
-- `browsers/brave/settings.txt` - flags & sync options to set by hand
-- `minecraft/prism launcher/` - restored by `7. prism.bat`
-- `samsung drivers/driver pack/` - galaxy book 3 360 drivers, installed by `2. samsung drivers.bat`
-- `tweaks/` - winhance profile + `autounattend.xml` + 'ctt profile'
-- `wallpapers/` - `nord_mountains.png` is set automatically by `9. wallpaper.bat`
-- `winhance/` - drop the app here before importing the tweak profiles
-
 ### install
 
 ```
