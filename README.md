@@ -4,5 +4,4 @@
 
 ### credits
 
-- [chris titus tech's windows utility](https://github.com/ChrisTitusTech/winutil)
 - [winhance](https://github.com/memstechtips/Winhance)
