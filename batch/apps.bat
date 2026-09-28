@@ -12,4 +12,6 @@ winget install --id=AutoHotkey.AutoHotkey -e
 winget install --id=MullvadVPN.MullvadVPN -e
 winget install --id=AltSnap.AltSnap -e
 
+winget install --id XPFFZHVGQWWLHB --source msstore
+
 pause
