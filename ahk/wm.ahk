@@ -1,52 +1,32 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
+SendMode "Input"
+SetWinDelay -1
 
-; close the active window
 #q::WinClose("A")
-
-; maximize the active window
-#w::WinMaximize("A")
-
-; move active window to the second monitor
-#1::MoveToMonitor(2)
-
-; snap active window to left half of the main
-#2::SnapHalf("Left")
-
-; nap active window to right half of the main
-#3::SnapHalf("Right")
-
-; open powershell
+#w::WinGetMinMax("A") = 1 ? WinRestore("A") : WinMaximize("A")
+^1::MoveToMonitor(2)
+^2::SnapHalf(0)
+^3::SnapHalf(1)
 #Enter::Run("powershell.exe", A_Desktop)
 
-SnapHalf(side) {
-    win := "A"
-    if WinGetMinMax(win) = 1
-        WinRestore(win)
+Loop 9
+    Hotkey("#" A_Index, GoDesktop.Bind(A_Index))
 
-    mon := MonitorGetPrimary()
-    MonitorGetWorkArea(mon, &L, &T, &R, &B)
+GoDesktop(n, *) => Send("^#{Left 10}" (n > 1 ? "^#{Right " (n - 1) "}" : ""))
 
-    halfW := (R - L) // 2
-    h := B - T
-    x := (side = "Left") ? L : L + halfW
-
-    WinMove(x, T, halfW, h, win)
+SnapHalf(half) {
+    WinRestore("A")
+    MonitorGetWorkArea(MonitorGetPrimary(), &L, &T, &R, &B)
+    w := (R - L) // 2
+    WinMove(L + half * w, T, w, B - T, "A")
 }
 
 MoveToMonitor(idx) {
-    win := "A"
-    if (MonitorGetCount() < idx)
+    if MonitorGetCount() < idx
         return
-
-    if WinGetMinMax(win) = 1
-        WinRestore(win)
-
+    WinRestore("A")
     MonitorGetWorkArea(idx, &L, &T, &R, &B)
-    WinGetPos(&x, &y, &w, &h, win)
-
-    newX := L + ((R - L) - w) // 2
-    newY := T + ((B - T) - h) // 2
-
-    WinMove(newX, newY, w, h, win)
+    WinGetPos(, , &w, &h, "A")
+    WinMove(L + (R - L - w) // 2, T + (B - T - h) // 2, , , "A")
 }
