@@ -8,13 +8,10 @@
     "enable-zero-copy@1",
     "force-high-performance-gpu",
     "force-reduced-motion@1",
-    "hide-extensions-menu",
     "hide-fullscreen-exit-ui",
     "ignore-gpu-blocklist",
     "import-export-flags@1",
-    "show-avatar-button@3",
     "smooth-scrolling@1",
-    "tab-hover-cards@1",
     "use-angle@1"
   ]
 }
