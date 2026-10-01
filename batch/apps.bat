@@ -11,6 +11,7 @@ winget install --id=LocalSend.LocalSend -e
 winget install --id=AutoHotkey.AutoHotkey -e
 winget install --id=MullvadVPN.MullvadVPN -e
 winget install --id=AltSnap.AltSnap -e
+winget install --id=jurplel.qView -e
 winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
 
 pause
