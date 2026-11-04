@@ -19,6 +19,7 @@ winget install --id=7zip.7zip -e
 winget install --id=calibre.calibre -e
 winget install --id=oo-software.shutup10 -e
 winget install --id=yt-dlp.yt-dlp -e
+winget install --id=qBittorrent.qBittorrent -e
 
 shutup10
 pause
