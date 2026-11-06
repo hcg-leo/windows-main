@@ -11,7 +11,8 @@ winget install --id=Obsidian.Obsidian -e
 winget install --id=shinchiro.mpv -e
 winget install --id=LocalSend.LocalSend -e
 winget install --id=AutoHotkey.AutoHotkey -e
-winget install --id=MullvadVPN.MullvadVPN -e
+winget install --id=Proton.ProtonVPN -e
+winget install --id=Proton.ProtonDrive -e
 winget install --id=AltSnap.AltSnap -e
 winget install --id=jurplel.qView -e
 winget install --id=flxzt.rnote -e
@@ -19,7 +20,6 @@ winget install --id=7zip.7zip -e
 winget install --id=calibre.calibre -e
 winget install --id=oo-software.shutup10 -e
 winget install --id=yt-dlp.yt-dlp -e
-winget install --id=qBittorrent.qBittorrent -e
 
 shutup10
 pause
