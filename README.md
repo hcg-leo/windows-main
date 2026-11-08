@@ -8,7 +8,6 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   └── wm.ahk
 ├── altsnap
 │   └── AltSnap.ini
-├── anime.png
 ├── autounattend.xml
 ├── batch
 │   ├── altsnap.bat
@@ -29,27 +28,29 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   ├── startup.bat
 │   ├── touchpad.bat
 │   └── zed.bat
+├── books
 ├── cat.png
 ├── .gitignore
 ├── helium
 │   ├── bookmarks.html
 │   └── flags.json
-├── media
-│   ├── manga
-│   │   └── manga.bat
-│   └── music
-│       └── music.bat
+├── manga
+│   └── manga.bat
+├── mountain.jpg
+├── music
+│   └── music.bat
+├── oregairu.png
 ├── powershell
 │   └── settings.json
 ├── README.md
 ├── startup
 │   ├── AltSnap.exe - Shortcut.lnk
 │   └── wm.ahk - Shortcut.lnk
-├── wallpaper.png
+├── vagabond.png
 └── zed
     ├── settings.json
     └── themes
         └── nord.json
 ```
 
-> install wsl and run `git ls-files | tree --fromfile .` for the cool tree
+> install wsl and run `git rm -r --cached .` `git add .` and `git ls-files | tree --fromfile .` for the cool tree
