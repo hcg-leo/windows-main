@@ -1,6 +1,5 @@
 @echo off
-
-cd "C:\Users\Aran Thananjayan\Desktop"
+cd /d "%USERPROFILE%\Desktop"
 git clone https://github.com/storytold/lightcraft
 cd lightcraft
 cargo run --release -p lightcraft

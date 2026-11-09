@@ -1,6 +1,6 @@
 ### windows configuration
 
-my personal setup to setup windows for my galaxy book 3 360 - thats it
+my personal setup for windows on my galaxy book 3 360 - thats it
 
 ```
 .
@@ -10,24 +10,12 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   └── AltSnap.ini
 ├── autounattend.xml
 ├── batch
-│   ├── altsnap.bat
 │   ├── apps.bat
-│   ├── bluetooth.bat
-│   ├── display.bat
-│   ├── drivers.bat
+│   ├── config.bat
 │   ├── helium.bat
 │   ├── lightcraft.bat
-│   ├── localsend.bat
-│   ├── lockscreen.bat
-│   ├── mouse.bat
-│   ├── name.bat
-│   ├── night-light.bat
-│   ├── pen.bat
-│   ├── powershell.bat
-│   ├── prism.bat
-│   ├── startup.bat
-│   ├── touchpad.bat
-│   └── zed.bat
+│   ├── settings.bat
+│   └── system.bat
 ├── books
 ├── cat.png
 ├── .gitignore
@@ -40,12 +28,9 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 ├── music
 │   └── music.bat
 ├── oregairu.png
-├── powershell
-│   └── settings.json
 ├── README.md
-├── startup
-│   ├── AltSnap.exe - Shortcut.lnk
-│   └── wm.ahk - Shortcut.lnk
+├── terminal
+│   └── settings.json
 ├── vagabond.png
 └── zed
     ├── settings.json
@@ -53,4 +38,8 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
         └── nord.json
 ```
 
-> install wsl and run `git rm -r --cached .` `git add .` and `git ls-files | tree --fromfile .` for the cool tree
+1. install windows with `autounattend.xml`
+2. run `apps.bat`, `config.bat`, `settings.bat` and `helium.bat` from `batch`
+3. run `system.bat` as admin, then restart
+
+> tree: `git ls-files | tree --fromfile .` in wsl

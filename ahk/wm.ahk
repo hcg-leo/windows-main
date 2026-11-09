@@ -1,6 +1,5 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
-SendMode "Input"
 SetWinDelay -1
 
 #q::WinClose("A")
