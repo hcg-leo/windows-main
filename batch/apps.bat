@@ -1,6 +1,7 @@
 @echo off
 
-winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
+winget install --id=OO-Software.ShutUp10 -e
+shutup10
 winget install --id=ImputNet.Helium -e
 winget install --id=Hibbiki.Chromium -e
 winget install --id=Git.Git -e
@@ -18,8 +19,8 @@ winget install --id=jurplel.qView -e
 winget install --id=flxzt.rnote -e
 winget install --id=7zip.7zip -e
 winget install --id=calibre.calibre -e
-winget install --id=oo-software.shutup10 -e
 winget install --id=yt-dlp.yt-dlp -e
+winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
 
 shutup10
 pause
