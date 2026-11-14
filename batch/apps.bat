@@ -20,6 +20,7 @@ winget install --id=flxzt.rnote -e
 winget install --id=7zip.7zip -e
 winget install --id=calibre.calibre -e
 winget install --id=yt-dlp.yt-dlp -e
+winget install --id=Anthropic.ClaudeCode -e
 winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
 
 shutup10
