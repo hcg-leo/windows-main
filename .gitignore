@@ -21,6 +21,8 @@
 !/startup/
 !/zed/
 
+/batch/wifi.bat
+
 /books/*
 !/books/.gitkeep
 
