@@ -10,7 +10,6 @@
 !/CLAUDE.md
 
 !/config/
-!/batch/
 !/books/
 !/manga/
 !/music/
@@ -18,7 +17,7 @@
 
 /config/prism/
 /config/localsend/
-/batch/wifi.bat
+/config/batch/wifi.bat
 
 /books/*
 !/books/.gitkeep

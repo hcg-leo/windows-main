@@ -5,25 +5,6 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 ```
 .
 ├── autounattend.xml
-├── batch
-│   ├── altsnap.bat
-│   ├── apps.bat
-│   ├── bluetooth.bat
-│   ├── display.bat
-│   ├── drivers.bat
-│   ├── helium.bat
-│   ├── lightcraft.bat
-│   ├── localsend.bat
-│   ├── lockscreen.bat
-│   ├── mouse.bat
-│   ├── name.bat
-│   ├── night-light.bat
-│   ├── pen.bat
-│   ├── powershell.bat
-│   ├── prism.bat
-│   ├── startup.bat
-│   ├── touchpad.bat
-│   └── zed.bat
 ├── books
 ├── cat.png
 ├── config
@@ -31,6 +12,25 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   │   └── wm.ahk
 │   ├── altsnap
 │   │   └── AltSnap.ini
+│   ├── batch
+│   │   ├── altsnap.bat
+│   │   ├── apps.bat
+│   │   ├── bluetooth.bat
+│   │   ├── display.bat
+│   │   ├── drivers.bat
+│   │   ├── helium.bat
+│   │   ├── lightcraft.bat
+│   │   ├── localsend.bat
+│   │   ├── lockscreen.bat
+│   │   ├── mouse.bat
+│   │   ├── name.bat
+│   │   ├── night-light.bat
+│   │   ├── pen.bat
+│   │   ├── powershell.bat
+│   │   ├── prism.bat
+│   │   ├── startup.bat
+│   │   ├── touchpad.bat
+│   │   └── zed.bat
 │   ├── helium
 │   │   ├── bookmarks.html
 │   │   └── flags.json
