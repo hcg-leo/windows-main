@@ -1,14 +1,19 @@
 @echo off
 
+:: not open source: 4/21 :(
 winget install --id=OO-Software.ShutUp10 -e
 "C:\Users\Aran Thananjayan\AppData\Local\Microsoft\WinGet\Packages\OO-Software.ShutUp10_Microsoft.Winget.Source_8wekyb3d8bbwe\shutup10.exe"
+winget install --id=Obsidian.Obsidian -e
+winget install --id=Anthropic.ClaudeCode -e
+winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
+
+:: open source: 17/21 :)
 winget install --id=ImputNet.Helium -e
 winget install --id=Hibbiki.Chromium -e
 winget install --id=Git.Git -e
 winget install --id=Python.Python.3.14 -e
 winget install --id=ZedIndustries.Zed -e
 winget install --id=PrismLauncher.PrismLauncher -e
-winget install --id=Obsidian.Obsidian -e
 winget install --id=shinchiro.mpv -e
 winget install --id=LocalSend.LocalSend -e
 winget install --id=AutoHotkey.AutoHotkey -e
@@ -20,8 +25,6 @@ winget install --id=flxzt.rnote -e
 winget install --id=7zip.7zip -e
 winget install --id=calibre.calibre -e
 winget install --id=yt-dlp.yt-dlp -e
-winget install --id=Anthropic.ClaudeCode -e
-winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
 
 "C:\Users\Aran Thananjayan\AppData\Local\Microsoft\WinGet\Packages\OO-Software.ShutUp10_Microsoft.Winget.Source_8wekyb3d8bbwe\shutup10.exe"
 pause
