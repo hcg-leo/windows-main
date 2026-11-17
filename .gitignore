@@ -1,29 +1,26 @@
 /*
-
 !/.gitignore
 !/README.md
-!/autounattend.xml
-!/cat.png
-!/mountain.jpg
-!/oregairu.png
-!/vagabond.png
 !/CLAUDE.md
+!/autounattend.xml
+!/*.png
+!/*.jpg
 
 !/config/
-!/books/
-!/manga/
-!/music/
-!/shutup10/
-
 /config/prism/
 /config/localsend/
 /config/batch/wifi.bat
 
+!/shutup10/
+
+!/books/
 /books/*
 !/books/.gitkeep
 
+!/manga/
 /manga/*
 !/manga/manga.bat
 
+!/music/
 /music/*
 !/music/music.bat
