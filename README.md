@@ -4,7 +4,6 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 
 ```
 .
-├── autounattend.xml
 ├── books
 ├── cat.png
 ├── CLAUDE.md
@@ -13,6 +12,7 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   │   └── wm.ahk
 │   ├── altsnap
 │   │   └── AltSnap.ini
+│   ├── autounattend.xml
 │   ├── batch
 │   │   ├── altsnap.bat
 │   │   ├── apps.bat
