@@ -9,18 +9,15 @@
 !/vagabond.png
 !/CLAUDE.md
 
-!/ahk/
-!/altsnap/
+!/config/
 !/batch/
 !/books/
-!/helium/
 !/manga/
 !/music/
-!/powershell/
 !/shutup10/
-!/startup/
-!/zed/
 
+/config/prism/
+/config/localsend/
 /batch/wifi.bat
 
 /books/*
