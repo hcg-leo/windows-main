@@ -7,6 +7,7 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 ├── autounattend.xml
 ├── books
 ├── cat.png
+├── CLAUDE.md
 ├── config
 │   ├── ahk
 │   │   └── wm.ahk
@@ -22,6 +23,7 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   │   ├── lightcraft.bat
 │   │   ├── localsend.bat
 │   │   ├── lockscreen.bat
+│   │   ├── mc-mklink.bat
 │   │   ├── mouse.bat
 │   │   ├── name.bat
 │   │   ├── night-light.bat

@@ -1,7 +1,7 @@
 @echo off
 
 winget install --id=OO-Software.ShutUp10 -e
-shutup10
+"C:\Users\Aran Thananjayan\AppData\Local\Microsoft\WinGet\Packages\OO-Software.ShutUp10_Microsoft.Winget.Source_8wekyb3d8bbwe\shutup10.exe"
 winget install --id=ImputNet.Helium -e
 winget install --id=Hibbiki.Chromium -e
 winget install --id=Git.Git -e
