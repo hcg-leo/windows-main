@@ -23,5 +23,5 @@ winget install --id=yt-dlp.yt-dlp -e
 winget install --id=Anthropic.ClaudeCode -e
 winget install --id XPFFZHVGQWWLHB --silent --accept-package-agreements --accept-source-agreements --force --disable-interactivity --source msstore
 
-shutup10
+"C:\Users\Aran Thananjayan\AppData\Local\Microsoft\WinGet\Packages\OO-Software.ShutUp10_Microsoft.Winget.Source_8wekyb3d8bbwe\shutup10.exe"
 pause
