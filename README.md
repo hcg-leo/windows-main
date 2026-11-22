@@ -1,10 +1,9 @@
-### windows configuration
+### windows config
 
-my personal setup to setup windows for my galaxy book 3 360 - thats it
+my setup for windows - thats it
 
 ```
 .
-├── cat.png
 ├── config
 │   ├── ahk
 │   │   └── wm.ahk
@@ -36,6 +35,11 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   ├── helium
 │   │   ├── bookmarks.html
 │   │   └── flags.json
+│   ├── images
+│   │   ├── cat.png
+│   │   ├── mountain.jpg
+│   │   ├── oregairu.png
+│   │   └── vagabond.png
 │   ├── powershell
 │   │   └── settings.json
 │   ├── startup
@@ -46,10 +50,5 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │       └── themes
 │           └── nord.json
 ├── .gitignore
-├── mountain.jpg
-├── oregairu.png
-├── README.md
-└── vagabond.png
+└── README.md
 ```
-
-> install wsl and run `git rm -r --cached .` `git add .` and `git ls-files | tree --fromfile .` for the cool tree

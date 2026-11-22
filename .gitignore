@@ -2,8 +2,6 @@
 !/.gitignore
 !/README.md
 !/CLAUDE.md
-!/*.png
-!/*.jpg
 
 !/config/
 /config/prism/
