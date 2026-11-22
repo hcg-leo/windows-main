@@ -11,15 +11,3 @@
 /config/batch/wifi.bat
 
 !/shutup10/
-
-!/books/
-/books/*
-!/books/.gitkeep
-
-!/manga/
-/manga/*
-!/manga/manga.bat
-
-!/music/
-/music/*
-!/music/music.bat

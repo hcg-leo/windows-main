@@ -4,9 +4,7 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 
 ```
 .
-├── books
 ├── cat.png
-├── CLAUDE.md
 ├── config
 │   ├── ahk
 │   │   └── wm.ahk
@@ -23,8 +21,10 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │   │   ├── lightcraft.bat
 │   │   ├── localsend.bat
 │   │   ├── lockscreen.bat
+│   │   ├── manga.bat
 │   │   ├── mc-mklink.bat
 │   │   ├── mouse.bat
+│   │   ├── music.bat
 │   │   ├── name.bat
 │   │   ├── night-light.bat
 │   │   ├── pen.bat
@@ -46,11 +46,7 @@ my personal setup to setup windows for my galaxy book 3 360 - thats it
 │       └── themes
 │           └── nord.json
 ├── .gitignore
-├── manga
-│   └── manga.bat
 ├── mountain.jpg
-├── music
-│   └── music.bat
 ├── oregairu.png
 ├── README.md
 └── vagabond.png
