@@ -1,4 +1,29 @@
 {
+  "git": {
+    "path_style": "file_name_first",
+    "blame": {
+      "show_avatar": true
+    },
+    "inline_blame": {
+      "padding": 7,
+      "show_commit_summary": true,
+      "location": "status_bar"
+    }
+  },
+  "ssh_connections": [
+    {
+      "host": "hcg-leo.duckdns.org",
+      "username": "hcg_leo",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/hcg_leo/fedora-server/./"
+          ]
+        }
+      ]
+    }
+  ],
   "diff_view_style": "split",
   "cli_default_open_behavior": "existing_window",
   "global_lsp_settings": {
