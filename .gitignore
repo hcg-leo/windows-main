@@ -8,5 +8,7 @@
 /config/localsend/
 /config/batch/wifi.bat
 /config/drivers
+/config/wpods/WPods-Setup.exe
+/config/claude/
 
 !/shutup10/

@@ -1,0 +1,78 @@
+{
+  "lastUsed": "340E22291E2A",
+  "ui": {
+    "theme": "dark",
+    "useAccent": false,
+    "language": "system",
+    "windowHeight": 640,
+    "firstRunDone": true,
+    "dismissedUpdate": null,
+    "mixerHideDisconnected": false,
+    "mixerHideDisabled": false
+  },
+  "mic": {
+    "modes": [
+      "standard",
+      "voiceIsolation",
+      "wideSpectrum"
+    ],
+    "models": {
+      "standard": "gtcrn-vd",
+      "voiceIsolation": "dpdfnet8",
+      "wideSpectrum": "webrtc-ns"
+    },
+    "enhancement": "clearAuto"
+  },
+  "mixer": {
+    "sources": [],
+    "volumes": {},
+    "enabled": true
+  },
+  "hotkeys": {
+    "bindings": null,
+    "sounds": true
+  },
+  "devices": {
+    "340E22291E2A": {
+      "disableHandsFree": true,
+      "lowLatency": true,
+      "lowLatencyMic": true,
+      "micMode": "VoiceIsolation",
+      "duckPercent": 40,
+      "hdVoice": false
+    }
+  },
+  "models": {
+    "340E22291E2A": {
+      "number": "A3064",
+      "name": "AirPods Pro 3"
+    }
+  },
+  "capabilities": {
+    "340E22291E2A": "ListeningMode, Adaptive, ConversationAwareness, OneBudAnc, PersonalizedVolume, PressSpeed, HoldDuration, ToneVolume, HearingAid, HeartRate, MediaAssist"
+  },
+  "stemModes": {},
+  "earDetection": {},
+  "allowOff": {
+    "340E22291E2A": true
+  },
+  "micSide": {},
+  "podSettings": {
+    "340E22291E2A": {
+      "listeningMode": "Transparency",
+      "conversationAwareness": false,
+      "personalizedVolume": true,
+      "oneBudAnc": true,
+      "pressSpeed": "Default",
+      "holdDuration": "Shortest",
+      "toneVolume": 21,
+      "hearingAidEnrolled": false,
+      "hearingAidEnabled": false,
+      "mediaAssistCalls": false,
+      "mediaAssistMedia": false
+    }
+  },
+  "pairingDates": {
+    "340E22291E2A": "2026-11-26T21:12:45.0021542Z"
+  }
+}
